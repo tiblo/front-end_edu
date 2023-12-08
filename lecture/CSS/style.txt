@@ -5,7 +5,6 @@
 * {
     font-family: 'Gowun Dodum', sans-serif;
 }
-
 h1 {
     font-weight: bolder;
     margin: 0 auto;
