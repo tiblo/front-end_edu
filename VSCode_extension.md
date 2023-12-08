@@ -6,7 +6,7 @@
 'setting.json'에 다음을 설정을 추가
 ```json
 {
-    ...,
+    ...
     "auto-rename-tag.activationOnLanguage": ["*"],
 }
 ```
@@ -17,7 +17,7 @@
 'setting.json'에 다음을 설정을 추가
 ```json
 {
-    ...,
+    ...
     "auto-close-tag.activationOnLanguage": ["*"],
 }
 ```
