@@ -36,7 +36,9 @@
 > HTML CSS Support의 반대 기능으로 HTML에서 작성한 class의 값을 연결된 CSS 파일에서 쓸 때 자동 완성 기능을 제공해주는 확장
 
 확장에 대한 설정이 필요함
-![image](https://github.com/tiblo/front-end_edu/assets/34559256/f8805a4a-6683-4c88-a5cc-2fcbbe9983e0)
+
+![preview-config](https://github.com/tiblo/front-end_edu/assets/34559256/c500957b-ae63-4149-b2fa-9fa91e7e08aa)
+
 
 
 
