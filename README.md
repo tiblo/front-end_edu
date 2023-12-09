@@ -13,3 +13,6 @@ https://fonts.google.com/specimen/Nova+Square
 한컴 한글 문서에 각 페이지의 스크린샷을 저장하여 제출
 
 파일명 : '프론트엔드_홍길동.hwp'
+
+# 컬러 예시용 사이트
+https://www.colourlovers.com/web/trends/websites
