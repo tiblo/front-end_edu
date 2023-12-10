@@ -1,0 +1,136 @@
+js_ex2.html
+
+    let a = 7;
+    let b = 3;
+    let c = "3";
+
+    console.log("a : ", a, ", b : " + b);
+
+    console.log("+ : ", a + b);
+    console.log("+ : ", b + c);//숫자 + 문자열 -> 문자열 + 문자열 : 두 문자열의 결합으로 처리
+    console.log("- : ", a - b);
+    console.log("* : ", a * b);
+    console.log("/(실수) : ", a / b);//정수 나눗셈도 실수로 변환하여 처리
+    console.log("/(정수) : ", parseInt(a / b));//몫을 구할 경우는 parseInt() 사용
+    console.log("% : ", a % b);//나머지 연산
+
+    console.log("> : ", a > b);
+    console.log(">= : ", a >= b);
+    console.log("< : ", a < b);
+    console.log("<= : ", a <= b);
+    console.log("== : ", a == b);
+    console.log("!= : ", a != b);
+
+    //==와 ===
+    let d = 10;
+    let e = "10";
+    console.log("d : ", d, ", e : " + e);
+
+    console.log("== : ", d == e);
+    console.log("=== : ", d === e);
+    console.log("!= : ", d != e);
+    console.log("!== : ", d !== e);
+
+-------------------------------------------------------
+js_ex3.html
+
+    let sw1 = false;
+    if(sw1){
+        let conf = confirm("실행할까요?");
+
+        if(conf == true){
+            alert("실행을 선택하였습니다.");
+        }
+        else {
+            alert("실행하지 않습니다.");
+        }
+    }
+
+    let sw2 = false;
+    if(sw2){
+        let prom = prompt("이름를 입력하세요.");
+        console.log(prom);
+        if(prom == ""){
+            alert("이름 입력이 필요합니다.");
+        }
+        else if(prom == null){
+            alert("취소하였습니다.");
+        }
+        else {
+            alert(prom + "님 반갑습니다.");
+        }
+    }
+
+    let sw3 = true;
+    let fruits = ["사과", "배", "바나나"];
+    if(sw3){
+        let fr = prompt(fruits + " 중에 하나를 선택하세요.");
+        
+        switch(fr){
+            case "사과":
+                alert("사과를 선택하였습니다.");
+                break;
+            case "배":
+                alert("배를 선택하였습니다.");
+                break;
+            case "바나나":
+                alert("바나나를 선택하였습니다.");
+                break;
+            default:
+                alert("3개 중에 하나를 선택하세요.");
+        }
+    }
+
+-------------------------------------------------------
+js_ex4.html
+
+    let cnt = confirm("반복할까요?");
+
+    while(cnt){
+        document.write("안녕하세요.<br>");
+        cnt = confirm("계속할까요?");
+    }
+
+    let idx = prompt("반복 횟수를 입력하세요.");
+
+    for(let i = 0; i < idx; i++){
+        document.write("Hi~~~<br>");
+    }
+
+-------------------------------------------------------
+js_ex5.html
+
+    //함수 선언
+    function helloFunc(){
+        console.log(1234);
+    }
+
+    //함수 사용
+    helloFunc();
+
+    //데이터(결과값) 반환 함수
+    function returnFunc(){
+        return 123;
+        console.log("ABC");
+    }
+
+    const a = returnFunc();
+    console.log(a);
+
+    //함수 재사용
+    function sum(x, y){
+        return x + y;
+    }
+
+    let f = sum(1, 2);
+    let s = sum(7, 12);
+    let t = sum(2, 4);
+
+    console.log(f, s, t);
+
+    //익명함수
+    const world = function(){
+        console.log("hello world~");
+    }
+    world();
+
